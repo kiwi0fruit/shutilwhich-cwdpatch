@@ -6,13 +6,13 @@ Patch for `shutil.which` and `shutilwhich` that doesn't prepend CWD in search on
 # Install
 
 ```bash
-conda install -c defaults -c conda-forge litereval
+conda install -c defaults -c conda-forge shutilwhich-cwdpatch
 ```
 
 or
 
 ```bash
-pip install litereval
+pip install shutilwhich-cwdpatch
 ```
 
 
