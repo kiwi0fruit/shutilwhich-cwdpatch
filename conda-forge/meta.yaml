@@ -1,5 +1,5 @@
 {% set name = "shutilwhich-cwdpatch" %}
-{% set version = "0.0.1" %}
+{% set version = "0.0.2" %}
 
 package:
   name: {{ name|lower }}
@@ -27,8 +27,8 @@ test:
 
 about:
   home: https://github.com/kiwi0fruit/shutilwhich-cwdpatch
-  license: MIT
-  license_family: MIT
+  license: PSFL
+  license_family: PSFL
   license_file: LICENSE
   summary: "Patch for shutil.which and shutilwhich that disables search in CWD on Windows."
   doc_url: https://github.com/kiwi0fruit/shutilwhich-cwdpatch
