@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 7583d4117082fbff5275c730d804b851896fd314cf3d04f1b1305b32218c220d
+  sha256: 500b820b5aaa5f5dda7c7b9151c4950dc0300e42664435207fb19d6e7cbb6217
 
 build:
   noarch: python
@@ -28,7 +28,7 @@ test:
 about:
   home: https://github.com/kiwi0fruit/shutilwhich-cwdpatch
   license: PSFL
-  license_family: PSFL
+  license_family: PSF
   license_file: LICENSE
   summary: "Patch for shutil.which and shutilwhich that disables search in CWD on Windows."
   doc_url: https://github.com/kiwi0fruit/shutilwhich-cwdpatch
