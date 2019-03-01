@@ -18,9 +18,15 @@ pip install shutilwhich-cwdpatch
 
 # Usage:
 
-Simply import shutilwhich-cwdpatch before importing `shutil.which` or `shutilwhich`:
+Simply import `patch` submodule before importing `shutil.which` or `shutilwhich` to patch them:
 
 ```py
-import shutilwhich_cwdpatch
+import shutilwhich_cwdpatch.patch
 from shutil import which
+```
+
+Or use `which` without patching:
+
+```py
+from shutilwhich_cwdpatch import which
 ```

@@ -62,17 +62,3 @@ def which(cmd, mode=os.F_OK | os.X_OK, path=None):
                 if _access_check(name, mode):
                     return name
     return None
-
-
-try:
-    from shutil import which as _which
-    import shutil
-    shutil.which = which
-except (ImportError, ModuleNotFoundError):
-    pass
-
-try:
-    import shutilwhich
-    shutilwhich.which = which
-except ModuleNotFoundError:
-    pass
